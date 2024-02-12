@@ -1,3 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+#kitty {
+    width: 200px;
+}
