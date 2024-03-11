@@ -1,4 +1,5 @@
-$primary : black;
+$primary : rgb(0, 0, 0);
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -28,4 +29,17 @@ img {
 
 #container {
     display: flex;
+}
+
+.knopje {
+    float: right;
+    width: 5vw;
+    text-align: center;
+}
+
+.knopje1 {
+    float: right;
+    width: 5vw;
+    background-color: rgb(101, 101, 241);
+    text-align: center;
 }
