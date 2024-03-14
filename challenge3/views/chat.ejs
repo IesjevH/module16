@@ -101,7 +101,6 @@
 
         socket.on('message', (data) => {
             const { messenger, message}=data;
-            console.log(data)
             const li =document.createElement('li');
             li.textContent = `${messenger} : ${message}`;
             messages.appendChild(li);
